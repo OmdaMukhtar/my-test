@@ -321,6 +321,7 @@ textarea {
 	    </div>
 	  </section>
 	  <div class="space"></div>
+		<footer>
 	  <div class="row social">
 	    <div class="col-xs-12 col-md-6">
 	      <h2>Connect with me</h2>
@@ -339,26 +340,26 @@ textarea {
 	  </div>
 	</div>
 	<div class="space"></div>
-	<div class="footer">
+<!-- 	<div class="footer"> -->
 	  <p class="text-center">Written and coded by <a href="#">Kingdom Isaac</a> &copy; 2016 All Rights Reserved</p>
-	</div>
-	
+<!-- 	</div> -->
+		</footer>
 	<script>
 		$(document).ready(function(){
-  $("#banner-name").addClass("animated zoomIn");
-  $("#about_img").hover(function(){
-    $(this).addClass("animated pulse");
-    }, function(){
-    $(this).removeClass("animated pulse");
-  });
-  
-  $(function(){
-    $("#navbar a").click(function(e){
-      e.preventDefault();
-      $('html,body').scrollTo(this.hash,this.hash);
-    });
-  });
-});
+		  $("#banner-name").addClass("animated zoomIn");
+		  $("#about_img").hover(function(){
+		    $(this).addClass("animated pulse");
+		    }, function(){
+		    $(this).removeClass("animated pulse");
+		  });
+
+		  $(function(){
+		    $("#navbar a").click(function(e){
+		      e.preventDefault();
+		      $('html,body').scrollTo(this.hash,this.hash);
+		    });
+		  });
+		});
 	</script>
 </body>
 </html>
